@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Butler_Bold;
+    src: url(Butler_Bold.otf);
+}
+
+@font-face {
+    font-family: Butler_Regular;
+    src: url(Butler_Bold.otf);
+}
+
+.containerOneActive{
+    height: 100vh;
+    width: 100vw;
+    background-color:0F0F0F;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.containerTwoActive{
+    width:100vw;
+    height : 100vh;
+    background-color:white;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.containerOneHidden{
+    height: 0vh;
+    width: 100vw;
+    background-color:0F0F0F;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+.containerTwoHidden{
+    width:100vw;
+    height : 0vh;
+    background-color:white;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+.logo{
+    width: 10vw;
+    height:30vh;
+    margin: 35vh 0 0 45vw;
+
+}
+.pattern{
+    height: 100vh;
+    width: 60vw;
+    margin-left:20vw;
+    position: fixed;
+}
+
+.subHeading{
+    font-size: 18px;
+    color:#464066;
+    margin:10px 0 0 38vw;
+    font-family: Butler_Bold;
+    /* font-weight: bold; */
+}
+.subText{
+    font-size: 5px;
+    color:B3B3B3;
+    margin:0px 0 0 40vw;
+    font-family: Butler_Regular;
+}
+
+
+.buttonTopActive{
+    height: 40px;
+    width: 2px;
+    background-color: lightslategray;
+    margin: 0 0 10px 0;
+    /* position: fixed; */
+
+}
+.buttonDownDisable{
+    height: 40px;
+    width: 2px;
+    background-color:grey;
+    /* position: fixed; */
+
+}
+.wheel{
+    position:fixed;
+    margin:  35vh 0 0 95vw;
+    z-index: 10;
+}

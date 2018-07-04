@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+}
+
+.logoactive{
+    width:40%;
+    height:40%;
+    background-color: whitesmoke ;
+    margin:200px 0px 0px 350px
+}
+
+.logoinactive{
+    width:25%;
+    height:25%;
+    background-color: red ;
+    margin:0px 0px 0px 350px;
+    position:fixed;
+}
+
+.container1{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+}
